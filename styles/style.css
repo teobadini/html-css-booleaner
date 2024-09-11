@@ -1,3 +1,11 @@
+body {
+    margin: 0;
+}
+main {
+    margin-left: 10px;
+    margin-right: 10px
+}
+
 /* header */
 .header-container {
     background-color: #9cd6f4;
@@ -17,17 +25,17 @@
 
 /* Body articolo */
 h1 {
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 20px;
     margin-bottom: 0px;
 }
 .article-subtitle {
-    font-size: 12px;
+    font-size: 14px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
 .article-date {
-    font-size: 8px;
+    font-size: 10px;
     margin-top: 0px;
     margin-bottom: 20px;
 }
@@ -65,4 +73,19 @@ h1 {
 }
 .long-phrase {
     width: 40%;
+}
+table {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+/* footer */
+.footer-container {
+    background-color: #313a6b;
+    padding: 15px;
+    margin: 0;
+    width: auto;
+    color: white;
+    font-size: 12px;
+    text-align: center;
 }
