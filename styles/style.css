@@ -15,7 +15,7 @@
     color: #54a0ff;
 }
 
-/* Titolo e data */
+/* Body articolo */
 h1 {
     font-size: 40px;
     margin-top: 20px;
@@ -38,4 +38,31 @@ h1 {
 }
 .text-body {
     font-size: 14px;
+}
+
+/* Tabella */
+.table-head {
+    text-align: left;
+    color: white;
+    background-color: #7fa6fb;
+    font-weight: bold;
+    font-size: 14px;
+}
+.table-odd-row {
+    text-align: left;
+    color: black;
+    background-color: #dfe5f2;
+    font-weight: 100;
+}
+.table-even-row {
+    text-align: left;
+    color: black;
+    background-color: white;
+    font-weight: 100;
+}
+.short-phrase {
+    width: 30%;
+}
+.long-phrase {
+    width: 40%;
 }
